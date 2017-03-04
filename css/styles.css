@@ -1,0 +1,130 @@
+
+
+/*styling elements*/
+
+
+/* html styling */			
+	html {
+			background: url(https://cdn.pixabay.com/photo/2017/02/08/14/16/computational-2048977_960_720.jpg) no-repeat center fixed; /* background image */
+			background-size: cover; /* placement of image to cover screen */
+	}
+	
+/* body styling */	
+	body
+		{
+			background: url(http://cdn.wallpapersafari.com/68/42/UsgK1b.jpg) no-repeat center fixed; /* body image */
+			margin: 0px 270px 0px 270px;/* location of the image on the screen */
+		}
+		
+/* h1 styling */
+	h1        
+		{
+			color:black; /* font colour */
+			background-color: white; /* background colour */
+			text-decoration:none; /* text type none */
+			font-family: gibson; /* font choice for text */
+			font-size: 300%; /* font size */
+			text-align:center; /* alignmnet */
+			}
+
+/* h2styling */			
+	h2        
+		{
+			color:white; /* font colour */
+			background-color:grey; 
+			text-decoration:none; 
+			font-family: gibson; 
+			text-align:center;
+			opacity: 0.9; /* opacity of the colour  to appear*/
+			}
+			
+/* a:link styling */
+	a:link    
+		{
+			color:white; /* font colour */
+			background-color:transparent; 
+			text-decoration:none; 
+			font-family: gibson;
+			}
+	
+/* a:hover styling */	
+	a:hover   
+		{
+			color: rgb(102,153,255);  /* font colour */
+			background-color:transparent; 
+			text-decoration:bold; 
+			font-family: gibson;
+			}
+			
+/* p styling */
+	p 	  	  
+		{
+			color:black; /* font colour */
+			background-color:transparent; 
+			text-decoration:bold; 
+			font-family: gadugi; 
+			margin: 0px 100px;
+			}
+	
+/* form styling */
+	form      
+		{
+			color:black; /* font colour */
+			background-color:transparent; 
+			text-decoration:bold; 
+			font-family: gadugi;
+			
+			
+			}
+
+/* input for the [name=briefmessage] styling only */			
+	input[name=briefmessage]
+		{ /* size of the box */
+		    width: 40%;
+			padding: 40px 20px;
+			margin: 0px 0;
+			box-sizing: border-box;
+			
+			}	
+			
+/* button styling */
+	button    
+		{
+			color:black; /* font colour */
+			background-color:white; /* background of the button white */
+			text-decoration:bold; /* textbold */
+			font-family: gadugi; /* create font choice */
+			}
+			
+/* navigation styling */
+	ul
+		{
+			list-style-type: none; /* no bullet points */
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #424242; 
+			}
+
+/* bar list stylingfor links */
+	li {
+			float: left;
+			}
+
+	li a {
+			display: block; /* create bar */
+			color: white; /* font colour */
+			text-align: left; 
+			padding: 14px 16px; /* size */
+			text-decoration: bold;
+			}
+
+	li a:hover {
+			background-color: #111;
+			}
+			
+/* image styling creating round edges */
+	img {
+	border-radius: 25px;
+		}
+
